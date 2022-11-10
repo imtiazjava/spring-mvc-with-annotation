@@ -8,11 +8,18 @@
 <title>success page</title>
 </head>
 <body>
-		<h1>SUCCESSFULLY STORE IN DB</h1><br/>
-		SID:${student.sid}<br/>
-		SNAME:${student.sname}<br/>
-		SMARKS:${student.smarks}<br/>
+  
+			 <h1>SUCCESSFULLY STORE IN DB</h1> <br/>
+			 
+			 ${student.sid}<br/>
+			 ${student.sname}<br/>
+			 ${student.smarks}<br/>
+			 
+			 
+			 
+			 <a href="./">CLICK HERE TO STORE MORE</a>
+		 
 		
-		<a href="index.jsp">CLICK HERE TO STORE MORE...</a>
+		 
 </body>
 </html>
